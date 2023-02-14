@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+}
+
+.figures__cirle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+}
+
+.figures__squared {
+    width: 50px;
+    height: 50px;
+    background: #e56a6a;
+}
+
+.figures__circle-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 11px;
+    transition: all 1s;
+    position: relative;
+    left: -200px;
+}
+
+.figures__cirle:hover .figures__circle-image {
+    left: 20px;
+}
+
+.figures__circle-image:hover {
+    box-shadow: 0 14px 24px black;
+
+}
